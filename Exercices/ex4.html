@@ -39,15 +39,15 @@
         var btn = document.getElementById("btn");
         var table = document.getElementById("tbody");
         var sort = document.getElementById("sort");
-        var listP = []
+        var list = ["test", "aaaaaaaaa", "distance", "android"];
+        var listP = [];
         class Person{
             constructor(fname, age){
                 this.firstName = fname;
                 this.age = age;
             }
         }
-        btn.addEventListener("click", function(){
-            table.innerHTML = "";
+        function add_person(){
             var person = new Person(fname.value, age.value);
             listP.push(person);
             for(var i=0;i<listP.length;i++){
@@ -56,14 +56,31 @@
                                     <td>${listP[i].age}</td>
                                 </tr>`
             }
+        }
+        btn.addEventListener("click", function(){
+            table.innerHTML = "";
+            add_person();
         })
 
-        function sort_table(op1, op2){
+        function sort_table(){
             if (sort.options[sort.selectedIndex].value == "age_desc"){
-                list.sort(function(a,b){return b - a});
+                listP.sort(function(a,b){return b.age - a.age});
             }
             else if (sort.options[sort.selectedIndex].value == "age_asc"){
-                list.sort(function(a,b){return a - b});
+                listP.sort(function(a,b){return a.age - b.age});
+            }
+            else if (sort.options[sort.selectedIndex].value == "name_asc"){
+                listP.sort(a.firstName, b.firstName);
+            }
+            else{
+                listP.sort(a.firstName, b.firstName);
+            }
+            table.innerHTML = "";
+            for(var i=0;i<listP.length;i++){
+                table.innerHTML += `<tr>
+                                    <td>${listP[i].firstName}</td>
+                                    <td>${listP[i].age}</td>
+                                </tr>`
             }
         }
 
