@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text">
+    <input type="button" value="submit" onclick="add_item()"><input type="button" value="reset" onclick="reset()">
+    <script>
+        //var list = ["l7lib", "l7archa", "baghrir"];
+        //list.push("atay") //kat ajouter "atay" f lakhar d list
+        //list.pop() // kat7ayed akhir item f list
+        //list.splice(0,1) // kat7ayed items mn 0 tal 1(makat7ayedxi 1)
+        //list.splice(0,2) // kat7ayed items mn 0 tal 2(makat7ayedxi 2)
+
+        var i =0;
+        var text = document.getElementsByTagName("input")[0];
+        var elements = [];
+        var ul = document.createElement("ul");
+        document.body.appendChild(ul);
+
+        // add an item
+        function add_item(){
+            if(text.value!=""){
+                elements.push(text.value)
+                if(i<elements.length){
+                    ul.innerHTML += "<li>"+elements[i]+"</li>";
+                    i++;
+                }
+                text.value ="";
+            }
+        }
+
+        // reset the list
+        function reset(){
+            elements = [];
+            ul.innerHTML = "";
+            i=0;
+        }
+        
+        
+    </script>
+</body>
+</html>

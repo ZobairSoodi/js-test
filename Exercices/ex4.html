@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:inline-block; 
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+    <label for="fname">Full Name</label><input id="fname" type="text"><br><br>
+    <label for="age">Age</label><input id="age" type="text"><br><br>
+    <input id="btn" type="button" value="Add">
+    <label for="sort">Sort By</label>
+    <select id="sort">
+        <option value="name_desc">name desc</option>
+        <option value="name_asc">name asc</option>
+        <option value="age_desc">age desc</option>
+        <option value="age_asc">age asc</option>
+    </select>
+    <table border="1">
+        <thead>
+            <td>Full Name</td>
+            <td>Age</td>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <script>
+        var fname = document.getElementById("fname");
+        var age = document.getElementById("age");
+        var btn = document.getElementById("btn");
+        var table = document.getElementById("tbody");
+        var sort = document.getElementById("sort");
+        var listP = []
+        class Person{
+            constructor(fname, age){
+                this.firstName = fname;
+                this.age = age;
+            }
+        }
+        btn.addEventListener("click", function(){
+            table.innerHTML = "";
+            var person = new Person(fname.value, age.value);
+            listP.push(person);
+            for(var i=0;i<listP.length;i++){
+                table.innerHTML += `<tr>
+                                    <td>${listP[i].firstName}</td>
+                                    <td>${listP[i].age}</td>
+                                </tr>`
+            }
+        })
+
+        function sort_table(op1, op2){
+            if (sort.options[sort.selectedIndex].value == "age_desc"){
+                list.sort(function(a,b){return b - a});
+            }
+            else if (sort.options[sort.selectedIndex].value == "age_asc"){
+                list.sort(function(a,b){return a - b});
+            }
+        }
+
+        sort.addEventListener("change", sort_table)
+    </script>
+</body>
+</html>
