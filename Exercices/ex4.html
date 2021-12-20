@@ -70,10 +70,14 @@
                 listP.sort(function(a,b){return a.age - b.age});
             }
             else if (sort.options[sort.selectedIndex].value == "name_asc"){
-                listP.sort(a.firstName, b.firstName);
+                listP.sort(function(a,b){
+                    if(a.firstName<b.firstName)return -1
+                });
             }
-            else{
-                listP.sort(a.firstName, b.firstName);
+            else if (sort.options[sort.selectedIndex].value == "name_desc"){
+                listP.sort(function(a,b){
+                    if(a.firstName>b.firstName)return -1
+                });
             }
             table.innerHTML = "";
             for(var i=0;i<listP.length;i++){

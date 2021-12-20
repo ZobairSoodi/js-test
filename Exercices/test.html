@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <form>
+        <input type="text" pattern="([0-2][0-9]|(3)[0-1])(\/)((0)[0-9]|(1)[0-2])(\/)((20)|(19))([0-9]{2})">
+    </form>
     <script>
         class animal{
             constructor(name, color){
@@ -32,12 +35,12 @@
         }
 
         var list=[];
-        for(i=0; i<3; i++){
-            var x = prompt("give a name");
-            var y = prompt("give a color");
-            var anAnimal = new animal(x, y);
-            list.push(anAnimal);
-        }
+        // for(i=0; i<3; i++){
+        //     var x = prompt("give a name");
+        //     var y = prompt("give a color");
+        //     var anAnimal = new animal(x, y);
+        //     list.push(anAnimal);
+        // }
 
 
     </script>
