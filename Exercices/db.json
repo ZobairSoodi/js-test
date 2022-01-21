@@ -1,0 +1,38 @@
+[
+    {
+        "name": "ayoub",
+        "age": 28,
+        "last name": "boukkour",
+        "fav food": ["bbhaysar", "baysar","zlafa d bbbhaysar b lkhobz"]
+    },
+    {
+        "name": "mohammed",
+        "age": 23,
+        "last name": "tligui",
+        "fav food": ["L3ds", "lobiya", "panini"]
+    },
+    {
+        "name": "wafae",
+        "age": 18,
+        "last name": "zouina",
+        "fav food": ["rfissa", "rfissa b jdad", "sardin d asfi"]
+    },
+    {
+        "name": "rania",
+        "age": 18,
+        "last name": "el balq",
+        "fav food": ["fatira fiha bastila", "ma9aroniya", "rawez bla sus"]
+    },
+    {
+        "name": "amine",
+        "age": 12,
+        "last name": "salmi",
+        "fav food": ["lkobz", "l7rira"]
+    },
+    {
+        "name": "amine",
+        "age": 300,
+        "last name": "salmi",
+        "fav food": ["lkobz", "l7rira"]
+    }
+]

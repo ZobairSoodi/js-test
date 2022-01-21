@@ -1,0 +1,291 @@
+{ 
+    "stock":
+            [
+                {
+                "id_produit":1001,
+                "désignation":"ICE steel - Mesh blue",
+                "prix":280.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","casablanca"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+            
+                {
+                "id_produit":1002,
+                "désignation":"ICE steel - Gold blue",
+                "prix":599.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+
+                {
+                "id_produit":1003,
+                "désignation":"ICE steel - Marine silver",
+                "prix":349.00,
+                "Catégorie":"Homme",
+                "disponibilité":["marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+           
+                {
+                "id_produit":1004,
+                "désignation":"ICE steel - Black racing - Chron",
+                "prix":249.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+    
+                {
+                "id_produit":1005,
+                "désignation":"ICE steel - Marine silver",
+                "prix":199.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","casablanca"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+         
+                {
+                "id_produit":1006,
+                "désignation":"ICE steel - Gold blue",
+                "prix":169.00,
+                "Catégorie":"Homme",
+                "disponibilité":["agadir","Rabat"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+            },
+                {
+                "id_produit":2001,
+                "désignation":"TIME MASTER-TF5022MB-03",
+                "prix":409.00 ,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","casablanca"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+            
+                {
+                "id_produit":2002,
+                "désignation":"SPECTRUM GHOST-TF5036MN-01LTD",
+                "prix":599.00 ,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+
+                {
+                "id_produit":2003,
+                "désignation":"STATUS CHRONO-TF5025MAB-02M",
+                "prix":349.00,
+                "Catégorie":"Homme",
+                "disponibilité":["marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+        
+                {
+                "id_produit":2004,
+                "désignation":"STATUS CHRONO-TF5025M-10M",
+                "prix":449.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+
+                {
+                "id_produit":2005,
+                "désignation":"SPECTRUM-TF5027MB-03",
+                "prix":699.00,
+                "Catégorie":"Homme",
+                "disponibilité":["Tanger","casablanca"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+        
+                {
+                "id_produit":2006,
+                "désignation":"IMPERIAL SCOUT-TF5038MR-01",
+                "prix":169.00,
+                "Catégorie":"Homme",
+                "disponibilité":["agadir","Rabat"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+           
+                {
+                "id_produit":3001,
+                "désignation":"ICE solar power - Red - Mesh",
+                "prix":99.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","Rabat","marrakech","casablanca"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+            
+                {
+                "id_produit":3002,
+                "désignation":"ICE solar power - Nature numbers - Mesh",
+                "prix":599.00 ,
+                "Catégorie":"femmes",
+                "disponibilité":["Tanger","Rabat","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+
+                {
+                "id_produit":3003,
+                "désignation":"ICE solar power - Sunset california",
+                "prix":349.00,
+                "Catégorie":"femmes",
+                "disponibilité":["marrakech","Tanger"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+        
+                {
+                "id_produit":3004,
+                "désignation":"ICE steel - Mesh blue",
+                "prix":249.00,
+                "Catégorie":"femmes",
+                "disponibilité":["Tanger","marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+
+                {
+                "id_produit":3005,
+                "désignation":"ICE steel - Chic silver rose-gold",
+                "prix":199.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","casablanca","agadir"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+        
+                {
+                "id_produit":3006,
+                "désignation":"ICE glam rock - Black stars",
+                "prix":169.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["agadir","Rabat","Tanger"],
+                "fournisseur":{
+                    "RS":"Ice-Watch",
+                    "Adresse":"Ibn batouta Mall, Av. Youssef Ibn Tachfine, Tanger"
+                }
+                },
+        
+                {
+                "id_produit":4001,
+                "désignation":"STATUS CHRONO LADY - TF5025LAR-02",
+                "prix":623.00 ,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","Rabat","casablanca","marrakech"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+            
+                {
+                "id_produit":4002,
+                "désignation":"STATUS CHRONO LADY - TF5025LAR-02M",
+                "prix":499.00 ,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+
+                {
+                "id_produit":4003,
+                "désignation":"SIRIUS LADY - TF5037LN-01",
+                "prix":649.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+        
+                {
+                "id_produit":4004,
+                "désignation":"SIRIUS LADY - TF5037LRN-01",
+                "prix":149.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","Rabat","marrakech","agadir"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+
+                {
+                "id_produit":4005,
+                "désignation":"SIRIUS LADY - TF5062LRN-01",
+                "prix":299.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["Tanger","casablanca"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                },
+        
+                {
+                "id_produit":4006,
+                "désignation":"LADY ELEGANCE - TF/A7001LNAS-01M",
+                "prix":769.00,
+                "Catégorie":"Femmes",
+                "disponibilité":["agadir","Rabat","casablanca"],
+                "fournisseur":{
+                    "RS":"TIME FORCE",
+                    "Adresse":"Rte California, Tanger 90040"
+                }
+                }
+            ]
+} 
